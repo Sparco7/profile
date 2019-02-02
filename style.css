@@ -1,0 +1,152 @@
+ h1, h2, h3 {
+  color:  #8B4513;
+  font-style: ;
+  font-weight: lighter;
+  margin: 1px;
+ }
+
+
+ p {
+  color:  #8B4513;
+  font-weight: lighter;
+
+}
+.container {
+ background-image: url("images/coding.jpg");
+ /*background-image: linear-gradient(red, yellow);*/
+background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("images/coding.jpg");
+background-repeat: no-repeat;
+ background-size: cover;
+ padding-top: 40px;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: rgb(230, 230, 230);
+  font-weight: lighter;
+  margin: 0;
+
+
+}
+/*img {
+  width: 50%;
+  height: auto;
+}*/
+div.head1 {
+ /* border: 1px solid powderblue;*/
+ /* padding: 30px;*/
+
+      /* border: 1px solid powderblue; */
+    /* padding: 30px; */
+    background-color: #20B2AA;
+    /* height: 200px; */
+    width: 50%;
+    margin: 20px auto;
+    border: 3px solid   #8B4513;
+    padding: 10px;
+    text-align: center;
+/*    font-family: "Times New Roman", Times, serif;*/
+    font-weight: lighter;
+
+}
+
+ul {
+/*  background: #3399ff;
+  padding: 20px;*/
+  list-style-type: none;
+  list-style: square inside url("sqpurple.gif");
+}
+.list-inline {
+  padding-left: 0px;
+}
+img {
+ /*  padding:1px;*/
+   border:3px solid   #8B4513;
+}
+
+.circle{
+width: 20%;
+height: 20%;
+border-radius: 50%;
+}
+
+div.about {
+  background-color: #20B2AA;
+  height: 200px;
+  width: 50%;
+ margin: 20px auto;
+  border: 3px solid   #8B4513;
+  padding: 10px;
+  /*font-family: "Times New Roman", Times, serif;*/
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+div.skills {
+  background-color: #20B2AA;
+  height: 200px;
+  width: 50%;
+   margin: 20px auto;
+  border: 3px solid   #8B4513;
+  padding: 10px;
+  color:  #8B4513;
+  /*font-family: "Times New Roman", Times, serif;*/
+}
+
+div.hobbies {
+   background-color: #20B2AA;
+/* height: 200px;*/
+  width: 50%;
+  margin: 2px auto;
+  border: 3px solid   #8B4513;
+  padding: 10px;
+  /*font-family: "Times New Roman", Times, serif;*/
+  font-weight: lighter;
+  color:  #8B4513;
+
+
+
+}
+
+table {
+  width: 100%;
+  margin: 0;
+}
+
+th {
+  height: 5px;
+  text-align: left;
+  margin: 0;
+
+}
+/*td {
+  height: 50px;
+}
+*/
+tr {
+  height: 15px;
+  font-weight: lighter;
+
+}
+
+.ul-skills {
+  margin: 10px;
+  padding: 10px;
+}
+
+li {
+  margin: 10px;
+/*  padding: 10px;*/
+
+}
+
+.contact {
+    list-style-type: none;
+}
+
+.td {
+  margin: 0;
+/*  padding: -10px;*/
+  color: black;
+}
